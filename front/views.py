@@ -16,7 +16,7 @@ def index(request):
 			members[cont]= cache.get("member_{}".format(row))
 			cont = cont + 1
 		
-	context = {'members': members, "lema": "Nos vemos el 26 de Diciembre en el siguiente Trivial que organizaremos en Meetup"}
+	context = {'members': members, "lema": "Nos vemos en el siguiente Trivial"}
 	return render(request, 'index.html', context)
 
 def get_meetup_members(request):
