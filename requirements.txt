@@ -1,6 +1,6 @@
 certifi==2018.11.29
 chardet==3.0.4
-Django==2.1.4
+Django==2.1.11
 django-redis==4.10.0
 idna==2.8
 meetup-api==0.1.1
